@@ -109,9 +109,13 @@ export const Home = () => {
         renderSectionHeader={({ section }) => <S.Date>{section.title}</S.Date>}
         showsVerticalScrollIndicator={false}
         style={{ flex: 1, marginTop: 16 }}
-        contentContainerStyle={{
-          paddingBottom: 60,
-        }}
+        contentContainerStyle={
+          meals.length === 0
+            ? { flex: 1, justifyContent: "center" }
+            : {
+                paddingBottom: 60,
+              }
+        }
         ListEmptyComponent={() => (
           <EmptyState message="Cadastre uma refeição" />
         )}

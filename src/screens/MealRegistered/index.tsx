@@ -66,9 +66,9 @@ export const MealRegistered = () => {
         {screenData[dataSelector].title}
       </S.Title>
       <S.Description>
-        {screenData[dataSelector].description.map((description) =>
+        {screenData[dataSelector].description.map((description, index) =>
           description.bold ? (
-            <S.BoldText>{description.message}</S.BoldText>
+            <S.BoldText key={index}>{description.message}</S.BoldText>
           ) : (
             description.message
           ),
