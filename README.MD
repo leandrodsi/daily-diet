@@ -11,11 +11,10 @@ The application is a meal tracker that enables users to register their daily mea
 ## **Screenshots**
 
 <div>
-<img src="./md-assets/home.png" width="150" />
-<img src="./md-assets/new-meal.png" width="150" />
-<img src="./md-assets/statistics.png" width="150" />
-<img src="./md-assets/meal-registered-in-diet.png" width="150" />
-<img src="./md-assets/meal-registered-out-diet.png" width="150" />
+<img src="./md-assets/home.png" width="180" />
+<img src="./md-assets/statistics.png" width="180" />
+<img src="./md-assets/meal-registered-in-diet.png" width="180" />
+<img src="./md-assets/meal-registered-out-diet.png" width="180" />
 </div>
 
 ## **Prerequisites**
